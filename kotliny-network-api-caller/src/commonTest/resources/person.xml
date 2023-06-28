@@ -1,0 +1,12 @@
+<Person>
+    <firstName>John</firstName>
+    <lastName>Doe</lastName>
+    <age>30</age>
+    <gender>Male</gender>
+    <address>123 Main St</address>
+    <phoneNumber>555-1234</phoneNumber>
+    <email>john.doe@example.com</email>
+    <occupation>Engineer</occupation>
+    <nationality>American</nationality>
+    <birthDate>1992-05-10</birthDate>
+</Person>
