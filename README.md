@@ -10,7 +10,7 @@ Kotliny Network is a simple, powerful and lightweight Kotlin Multiplatform Netwo
 Get it with Gradle:
 
 ```groovy
-implementation("com.kotliny.network:kotliny-network-client:1.0.0")
+implementation("com.kotliny.network:kotliny-network-client:1.1.0")
 ```
 
 To create a basic client you will need a folder that will be used by the client to save temporary files.
@@ -170,16 +170,16 @@ Api Caller
 In order to simplify the integration with an API, we can use the `ApiCaller` extension:
 
 ```groovy
-implementation("com.kotliny.network:kotliny-network-api-caller:1.0.0")
+implementation("com.kotliny.network:kotliny-network-api-caller:1.1.0")
 ```
 
 To get an instance of an `ApiCaller` you will need the client responsible for making the requests, the base URL of the API service, and an `APISerializer` instance (JSON or XML) that will be used by default to serialize / deserialize objects.
 Additionally, the library provides a default implementation of a JSON serializer.
 
 ```groovy
-implementation("com.kotliny.network:kotliny-network-serializer-json:1.0.0") // APISerializer that uses the kotlinx.serialization library (multiplatform)
+implementation("com.kotliny.network:kotliny-network-serializer-json:1.1.0") // APISerializer that uses the kotlinx.serialization library (multiplatform)
 or
-implementation("com.kotliny.network:kotliny-network-serializer-gson:1.0.0") // APISerializer that uses the gson library (only for jvm)
+implementation("com.kotliny.network:kotliny-network-serializer-gson:1.1.0") // APISerializer that uses the gson library (only for jvm)
 ```
 
 ```kotlin
@@ -270,10 +270,10 @@ The library provides 2 more engines to be used in JVM, but you can always write 
 
 ```groovy
 // To use a HttpClient defined in java since JMV11 
-implementation("com.kotliny.network:kotliny-network-engine-jvm11:1.0.0")
+implementation("com.kotliny.network:kotliny-network-engine-jvm11:1.1.0")
 
 // To use an OkHttpClient
-implementation("com.kotliny.network:kotliny-network-engine-okhttp:1.0.0")
+implementation("com.kotliny.network:kotliny-network-engine-okhttp:1.1.0")
 ```
 
 ```kotlin
@@ -291,7 +291,7 @@ Testing
 The library also provides a simple utilities in order to simplify testing the network layer, without actually making the requests.
 
 ```groovy
-implementation("com.kotliny.network:kotliny-network-engine-test:1.0.0")
+implementation("com.kotliny.network:kotliny-network-engine-test:1.1.0")
 ```
 
 There are mainly three types of engines that can be used for testing:

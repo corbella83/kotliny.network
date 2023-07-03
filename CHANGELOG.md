@@ -1,7 +1,7 @@
 Change Log
 ==========
 
-Version 1.0.1 *(20XX-XX-XX)*
+Version 1.1.0 *(20XX-XX-XX)*
 -----------------------------
 
 * 

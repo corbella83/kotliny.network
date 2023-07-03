@@ -115,7 +115,7 @@ class NetworkClient(private val folder: Folder, configuration: Config.() -> Unit
 
     private suspend fun HttpContent.transform(method: HttpMethod, url: HttpUrl): NetworkRequest {
         val realHeaders = headers.toMutableList()
-        realHeaders.add(HttpHeaders.USER_AGENT to (userAgent ?: "kotliny.network/1.0.0"))
+        realHeaders.add(HttpHeaders.USER_AGENT to (userAgent ?: "kotliny.network/1.1.0"))
         realHeaders.add(HttpHeaders.ACCEPT_ENCODING to "gzip")
 
         cookieManager?.get { it.isApplicable(url) }
