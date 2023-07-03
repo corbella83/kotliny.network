@@ -1,4 +1,4 @@
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.kotliny-network/kotliny-network/badge.svg)](https://search.maven.org/artifact/com.kotliny.network/kotliny.network)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.kotliny.network/kotliny-network/badge.svg)](https://search.maven.org/artifact/com.kotliny.network/kotliny-network)
 [![Kotlin](https://img.shields.io/badge/kotlin-1.8.22-blue.svg?logo=kotlin)](http://kotlinlang.org)
 [![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
